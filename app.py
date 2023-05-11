@@ -10,6 +10,7 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 nltk.download('stopwords')
+nltk.download('wordnet')
 from sklearn.model_selection import train_test_split
 import time
 
