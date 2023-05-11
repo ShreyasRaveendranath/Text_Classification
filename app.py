@@ -6,8 +6,10 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.ensemble import RandomForestClassifier
 from bs4 import BeautifulSoup
 import re
+import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
+nltk.download('stopwords')
 from sklearn.model_selection import train_test_split
 import time
 
