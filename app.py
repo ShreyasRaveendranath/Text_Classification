@@ -14,6 +14,16 @@ nltk.download('wordnet')
 from sklearn.model_selection import train_test_split
 import time
 
+
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
 # Set the page configuration with the title and background image
 st.set_page_config(
     page_title="Condition and Drug Name Prediction",
