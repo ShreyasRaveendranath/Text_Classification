@@ -15,6 +15,14 @@ from sklearn.model_selection import train_test_split
 import time
 
 
+# Set the page configuration with the title and background image
+st.set_page_config(
+    page_title="Condition and Drug Name Prediction",
+    page_icon=":pill:",
+    layout="centered",
+    initial_sidebar_state="expanded"
+)
+
 hide_st_style = """
             <style>
             #MainMenu {visibility: hidden;}
@@ -23,14 +31,6 @@ hide_st_style = """
             </style>
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
-
-# Set the page configuration with the title and background image
-st.set_page_config(
-    page_title="Condition and Drug Name Prediction",
-    page_icon=":pill:",
-    layout="centered",
-    initial_sidebar_state="expanded"
-)
 
 # Load the trained model and vectorizer
 model = load(open('model.pkl', 'rb'))
