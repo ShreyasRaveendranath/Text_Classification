@@ -13,6 +13,10 @@ from nltk.stem import WordNetLemmatizer
 from sklearn.model_selection import train_test_split
 import time
 import nltk
+
+nltk.download('stopwords')
+nltk.download('wordnet')
+
 # Set the page configuration with the title and background image
 st.set_page_config(
     page_title="Condition and Drug Name Prediction",
