@@ -106,10 +106,6 @@ st.write(maxlength_script % max_length, unsafe_allow_html=True)
 
 # Create the text area with the maximum character limit
 text = st.text_area('Enter your review:', height=5)
-
-# Display the remaining character count
-
-
 # Create predict button to predict condition and recommended drugs
 
 button_style = '''
