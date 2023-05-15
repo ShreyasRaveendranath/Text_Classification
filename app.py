@@ -47,7 +47,7 @@ st.markdown(
 
 df = px.data.iris()
 
-@st.cache_data
+@st.cache
 def get_img_as_base64(file):
     with open(file, "rb") as f:
         data = f.read()
