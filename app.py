@@ -63,7 +63,7 @@ img = get_img_as_base64("image.jpg")
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
-background-image: url("https://www.smartprix.com/bytes/wp-content/uploads/2023/03/cover.png");
+background-image: url("https://i.gifer.com/94aW.gif");
 background-size: 110%;
 background-position: top left;
 background-repeat: no-repeat;
