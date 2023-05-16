@@ -63,7 +63,7 @@ img = get_img_as_base64("image.jpg")
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
-background-image: url("https://i.gifer.com/94aW.gif");
+background-image: url("https://www.shutterstock.com/image-vector/medicine-bottle-pills-capsules-blister-260nw-1921291526.jpg");
 background-size: 110%;
 background-position: top left;
 background-repeat: no-repeat;
